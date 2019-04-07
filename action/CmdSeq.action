@@ -1,0 +1,11 @@
+# goal definition
+std_msgs/String
+
+# result definition
+#NOTE(mereweth) - likely to change
+bool success
+
+# feedback definition
+#NOTE(mereweth) - likely to change, and need to add to Svc/CmdSequencer
+uint32 cmdsCompleted
+uint32 cmdsTotal
