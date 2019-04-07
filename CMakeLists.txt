@@ -8,7 +8,7 @@ find_package(catkin REQUIRED COMPONENTS
 
 add_action_files(
   DIRECTORY action
-  FILES CmdSeq.action
+  FILES RunSeq.action
 )
 
 generate_messages(
