@@ -1,10 +1,10 @@
 # goal definition
-std_msgs/String
-
+std_msgs/String pathToSeq
+---
 # result definition
 #NOTE(mereweth) - likely to change
 bool success
-
+---
 # feedback definition
 #NOTE(mereweth) - likely to change, and need to add to Svc/CmdSequencer
 uint32 cmdsCompleted
